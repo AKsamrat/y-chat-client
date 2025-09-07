@@ -10,7 +10,7 @@ export default function formatTimestamp(timestamp: string) {
   return `${Math.floor(diff / 86400000)} days ago`;
 }
 
-const avatars = [
+export const avatars = [
   "https://api.dicebear.com/6.x/avataaars/svg?seed=Felix",
   "https://api.dicebear.com/6.x/avataaars/svg?seed=Aneka",
   "https://api.dicebear.com/6.x/avataaars/svg?seed=Mimi",
