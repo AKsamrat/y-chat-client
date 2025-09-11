@@ -80,9 +80,12 @@ const Login = () => {
     watch,
   } = useForm({ resolver: yupResolver(profilevalidationSchema) });
 
-  return;
-
-  <div className="min-w-7xl">login</div>;
+  return (
+    <div className="min-w-7xl">
+      <h1 className="text-2xl">Login Here</h1>
+      login
+    </div>
+  );
 };
 
 export default Login;
