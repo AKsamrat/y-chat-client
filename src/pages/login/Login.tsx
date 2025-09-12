@@ -82,7 +82,8 @@ const Login = () => {
 
   return (
     <div className="min-w-7xl">
-      <h1 className="text-2xl">Login Here</h1>
+      <h1 className="text-3xl">Login Here</h1>
+      <p className="font-normal">Give your data</p>
       login
     </div>
   );
